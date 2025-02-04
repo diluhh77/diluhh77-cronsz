@@ -59,35 +59,25 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id, { text: '' + b64data });
 	
 				   let SIGMA_MD_TEXT = `
-*KENTECH MD QR CODE CONNECTED*
+*ACD MD QR CODE CONNECTED*
 
-> You have completed the first step of Deploying *KENTEXH_MD*, Copy the above message and deploy your bot.Meanwhile you must follow the 4 steps. 
 
-> 1st STEP
-*TAP THE LINK BELOW AND FOLLOW THE CHANNEL* 
-𓄂 https://whatsapp.com/channel/0029VaX6kguGk1Fr135z610I
+> *YOU MUST JOIN OUR GROUP FOR UPDATES ON THIS BOT*
+𓄂 https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e
 
-> 2nd STEP
-*YOU MUST JOIN OUR GROUP FOR UPDATES ON THIS BOT*
-𓄂 https://chat.whatsapp.com/LcMZEQJA1ps7w0oXP3NzHt
+> *FORK AND STAR 🌟 THE REPO FOR COURAGE*
+𓄂 
+> https://github.com/DAFAMD2007/ACD-MD-BOT-V1
 
-> 3rd STEP
-*FORK AND STAR 🌟 THE REPO FOR COURAGE*
-𓄂 https://github.com/Investor45/kentech_md
-> https://github.com/Fred1e/LUCKY_MD
+*DEVELOPER: KING DINA*
+𓄂 https://wa.me/94743366235
 
-> 4th STEP 
-*VISIT FOR TUTORIALS IF YOU DON'T KNOW HOW TO DEPLOY*
-𓄂 https://www.youtube.com/@freeonlinetvT1
+*DEVELOPER PAIR:CRONAZ XD*
+𓄂 https://wa.me/918138898059
+> Dm ME  FOR WHATSAPP PAIR DEPLOYMENT  
 
-*DEVELOPER1: KEN TECH*
-𓄂 https://wa.me/237670217260
-
-*DEVELOPER2:FREDIE_TECH*
-𓄂 https://wa.me/255752593977
-
-> MADE ON EARTH BY FREDIE🇹🇿
-> CREATED BY KEN TECH💎 `
+> MADE ON ACD MD 
+> CREATED BY CRONAZ XD`
 					
 	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
 
